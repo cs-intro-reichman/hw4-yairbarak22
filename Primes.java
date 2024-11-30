@@ -22,7 +22,7 @@ public class Primes {
                 num++;
             }
         }
-        System.out.println("There are " + num + " primes between 0 and " + n + " (" + ((double) num / n * 100) + "% are primes)");
+        System.out.println("There are " + num + " primes between 2 and " + n + " (" + ((int) ((double) num / n * 100)) + "% are primes)");
     }
     
 }
